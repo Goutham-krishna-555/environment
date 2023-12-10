@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Earth</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Roboto:700');
+      body {
+        margin: 0px;
+        font-family: 'Roboto';
+        text-align: center;
+      }
+      #container {
+        color: #999;
+        text-transform: uppercase;
+        font-size: 36px;
+        font-weight: bold;
+        padding-bottom:10px;
+        position: relative;
+        width: 100%;
+        padding-top: 50px;
+        display: block;
+        text-align: center ;
+        bottom:1%;
+      }
+      #flip {
+        height: 50px;
+        overflow: hidden;
+      }
+      #flip>div>div {
+        color: #fff;
+        padding: 4px 12px;
+        height: 45px;
+        margin-bottom: 45px;
+        display: inline-block;
+      }
+      #flip div:first-child {
+        animation: show 5s linear infinite;
+      }
+      #flip div div {
+        background: #42c58a;
+      }
+      #flip div:first-child div {
+        background: #4ec7f3;
+      }
+      #flip div:last-child div {
+        background: #DC143C;
+      }
+  
+      @keyframes show {
+        0% {margin-top: -270px;}
+        5% {margin-top: -180px;}
+        33% {margin-top: -180px;}
+        38% {margin-top: -90px;}
+        66% {margin-top: -90px;}
+        71% {margin-top: 0px;}
+        99.99% {margin-top: 0px;}
+        100% {margin-top: -270px;}
+      }
+    </style>
+    </head>
+
+  <body id="mybody">
+    <div class="container" >
+      <h1>Environmental Sustainability</h1>
+      <br /><br />
+        <div id="climate-change">
+            <iframe
+        id="frame"
+        src="https://www.theworldcounts.com/embed/challenges/23?background_color=transparent&color=white&font_size=26px" style="width:300px; height:155px;"
+      ></iframe>
+      <hr />
+      <h4 id="save">
+        Do your bit! Save trees, use renewable energy soureces and prefer to
+        travel green
+      </h4>
+    </div>
+
+    <div id="button">
+      <input type="submit" class="change" id="climate" value="Climate" />
+      <input
+        type="submit"
+        class="change"
+        id="consumption"
+        value="Consumption"
+      />
+      <input type="submit" class="change" id="resources" value="Resources" />
+      <input type="submit" class="change" id="people" value="People" />
+    </div>
+    
+  </div>
+<div class="carbon">
+  Individual carbon footprint:
+</div>
+<hr>
+<br>
+<iframe width="710" height="1300" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" src="https://calculator.carbonfootprint.com/calculator.aspx?b=3bb143"></iframe>
+<div id=container>
+  ALWAYS
+  <div id=flip>
+    <div>
+      <div>REDUCE</div>
+    </div>
+    <div>
+      <div>REUSE</div>
+    </div>
+    <div>
+      <div>RECYCLE</div>
+    </div>
+  </div>
+</div>
+  <script src="pheonix.js"></script>
+  </body>
+</html>
+
+
