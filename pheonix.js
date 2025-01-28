@@ -55,21 +55,18 @@ resources.onclick=()=>{
 
 }
 
-climate.onclick=()=>{
-    bodyvar.style.background="url('https://kq-storage.s3.ap-south-1.amazonaws.com/Github/earth/climate-change-bg%5B1%5D.png')"
-    bodyvar.style.backgroundSize="100% 100%"
-    bodyvar.style.backgroundAttachment='fixed'
-    frame.src="https://www.theworldcounts.com/embed/challenges/23?background_color=transparent&color=white&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=25"
-    savetext.innerHTML="Climate change is a great concern in today’s scenario. This problem has surfaced in the last few decades. Greenhouse gases are the major cause of climate change. Environmental changes have several destructive impacts such as the melting of glaciers, change in seasons, epidemics, etc. Save trees, use renewable energy sources and prefer to travel green"
-    climate.style.background="#337BE6"
-    resources.style.background="transparent"
-    consumption.style.background="transparent"
-    people.style.background="transparent"
+climate.onclick = () => {
+    bodyvar.style.background = "url('https://kq-storage.s3.ap-south-1.amazonaws.com/Github/earth/climate-change-bg%5B1%5D.png')";
+    bodyvar.style.backgroundSize = "100% 100%";
+    bodyvar.style.backgroundAttachment = "fixed"; 
+    frame.src = "https://www.theworldcounts.com/embed/challenges/23?background_color=transparent&color=white&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=25";
+    savetext.innerHTML = "Climate change is a great concern in today’s scenario. This problem has surfaced in the last few decades. Greenhouse gases are the major cause of climate change. Environmental changes have several destructive impacts such as the melting of glaciers, change in seasons, epidemics, etc. Save trees, use renewable energy sources and prefer to travel green";
+    climate.style.background = "#337BE6";
+    resources.style.background = "transparent";
+    consumption.style.background = "transparent";
+    people.style.background = "transparent";
+};
 
-
-    
-
-}
 
 people.onclick=()=>{
     bodyvar.style.background="url('https://kq-storage.s3.ap-south-1.amazonaws.com/Github/earth/poverty-bg%5B1%5D.png')"
